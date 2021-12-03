@@ -2139,8 +2139,12 @@ p {
 }
 
 .schedule-listing .schedule-slot-info .schedule-box.gray {
-  background-color: #DDDDDD;
+  background-color: white;
   height: 135px;
+}
+.schedule-listing .schedule-slot-info .schedule-box.no-line {
+  background-color: white;
+  height: 137px;
 }
 
 .schedule-listing .schedule-slot-info .schedule-slot-title {
@@ -2168,7 +2172,7 @@ p {
 
 .schedule-listing .schedule-slot-info .schedule-slot-title.light {
   font-family: 'GT Pressura';
-  font-size: 15px;
+  font-size: 13px;
   line-height: 15px;
 }
 
@@ -2222,7 +2226,14 @@ p {
   text-align: center;
   margin-top: 60px;
 }
-
+.schedule-line{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.schedule-line hr {
+  border-top: 2px solid #888888;
+  margin: 0 !important;
+}
 .schedule-tabs .tab-pane.active,
 .direction-tabs .tab-pane.active {
   -webkit-animation-name: fadeRight;
