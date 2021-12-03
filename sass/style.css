@@ -1560,7 +1560,7 @@ body {
 }
 
 .two .p-div {
-  height: 98px;
+  min-height: 98px;
 }
 
 .two h3 {
