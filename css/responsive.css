@@ -1167,6 +1167,14 @@ small device /mobile sm and large
     margin-bottom: 3px;
     line-height: 12px;
   }
+  
+  .schedule-listing .schedule-slot-info .schedule-box.vacio{
+    display: none
+  }
+  .schedule-listing .schedule-slot-info .schedule-box.gray{
+    min-height: 76px;
+    height: 100%;
+  }
 }
 
 @media (max-width: 375px) {

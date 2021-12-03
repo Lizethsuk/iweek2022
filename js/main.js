@@ -26,6 +26,7 @@ const triggerMenu= document.querySelector(".page-header .trigger-menu");
 const nav= document.querySelector(".page-header .nav");
 const scrollUp= "scroll-up";
 const scrollDown= "scroll-down";
+const card0= document.querySelector(".card0");
 const card1= document.querySelector(".card1");
 const card2= document.querySelector(".card2");
 const card3= document.querySelector(".card3");
@@ -35,7 +36,11 @@ const card6= document.querySelector(".card6");
 
 let lastScroll = 0;
 
+card0.addEventListener("click", () => {
+   
+   card0.classList.toggle('is-flipped');
 
+ });
 
 card1.addEventListener("click", () => {
    
