@@ -57,6 +57,12 @@
   font-weight: bold;
   font-style: normal;
 }
+@font-face {
+  font-family: 'GT Pressura light';
+  src: url("../fonts/GT Pressura/gt-pressura-light-web-webfont.ttf");
+  src: url("../fonts/GT Pressura/gt-pressura-light-web-webfont.ttf") format("truetype");
+
+}
 
 @font-face {
   font-family: 'GT Pressura-light-italic';
@@ -2140,11 +2146,11 @@ p {
 
 .schedule-listing .schedule-slot-info .schedule-box.gray {
   background-color: white;
-  height: 135px;
+  height: 125px;
 }
 .schedule-listing .schedule-slot-info .schedule-box.no-line {
   background-color: white;
-  height: 137px;
+  height: 127px;
 }
 
 .schedule-listing .schedule-slot-info .schedule-slot-title {
@@ -2168,11 +2174,18 @@ p {
 .schedule-listing .schedule-slot-info .schedule-slot-title.two-title {
   color: #BE66BC;
   line-height: 15px;
+  font-size: 16px;
 }
-
+.back-text{
+  color: #000000!important;
+  line-height: 12px!important;
+  font-size: 12px!important;
+  font-family: 'Roboto'!important;
+  font-weight: 100;
+}
 .schedule-listing .schedule-slot-info .schedule-slot-title.light {
   font-family: 'GT Pressura';
-  font-size: 13px;
+  font-size: 16px;
   line-height: 15px;
 }
 
